@@ -105,6 +105,8 @@ df["Rolling10"] = df["Mean"].rolling(window=10).mean()
 # Highlight hottest and coldest years
 hottest = df.loc[df["Mean"].idxmax()]
 coldest = df.loc[df["Mean"].idxmin()]
+````
+
  Dataset Info
 The dataset annual.csv should contain the following columns:
 
@@ -143,3 +145,4 @@ Built using Python, Pandas, and Matplotlib.
 
 yaml
 Copy code
+
